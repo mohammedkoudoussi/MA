@@ -94,7 +94,7 @@ export default function TyabSehaWebsite() {
     },
     {
       name: "Pastilla",
-      description: "plat traditionnel marocain raffiné, généralement préparé avec une pâte fine appelée warqa, garnie d’un mélange savoureux de poulet , d’amandes, d’épices, et d’un subtil équilibre sucré-salé avec de la cannelle et du sucre glace. (6 personnes)",
+      description: "Une pastilla croustillante garnie de poissons blancs, crevettes, vermicelles et épices marocaines, enveloppée dans une fine feuille de brick (6 personnes)",
       image: "/pastilla.jpg?height=200&width=300",
       category: "Plats traditionnels",
       nutrition: {
