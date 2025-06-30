@@ -325,7 +325,7 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Nos Épices Authentiques</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Découvrez notre collection d'épices marocaines traditionnelles, soigneusement sélectionnées pour sublimer
+              Découvrez notre collection d épices marocaines traditionnelles, soigneusement sélectionnées pour sublimer
               vos plats faits maison. Les mêmes épices que nos cuisinières utilisent !
             </p>
           </div>
@@ -417,7 +417,7 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-full mb-4">
                     <ChefHat className="h-8 w-8 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Boutique d'Épices Marocaines</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Boutique d Épices Marocaines</h3>
                   <p className="text-gray-600 mb-6">
                     Visitez notre boutique en ligne spécialisée dans les épices authentiques du Maroc. Commandez les
                     mêmes ingrédients que nos cuisinières utilisent pour préparer vos plats TyabSeha.
@@ -452,7 +452,7 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
                     onClick={() => window.open("https://goo-back.github.io/assil/", "_blank")}
                   >
                     <Eye className="h-5 w-5 mr-2" />
-                    Découvrir Notre Boutique d'Épices
+                    Découvrir Notre Boutique d Épices
                   </Button>
 
                   <Button
