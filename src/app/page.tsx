@@ -93,8 +93,8 @@ export default function TyabSehaWebsite() {
       price: "90 MAD",
     },
     {
-      name: "Pastilla",
-      description: "Une pastilla croustillante garnie de poissons blancs, crevettes, vermicelles et épices marocaines, enveloppée dans une fine feuille de brick (6 personnes)",
+      name: "Pastilla hout",
+      description: "plat traditionnel marocain raffiné, généralement préparé avec une pâte fine appelée warqa, garnie d’un mélange savoureux de poulet , d’amandes, d’épices, et d’un subtil équilibre sucré-salé avec de la cannelle et du sucre glace. (6 personnes)",
       image: "/pastilla.jpg?height=200&width=300",
       category: "Plats traditionnels",
       nutrition: {
@@ -318,6 +318,168 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
             ))}
           </div>
         </div>
+      </section>
+{/* Spices Section */}
+      <section className="py-20 bg-gradient-to-br from-orange-50 via-yellow-50 to-red-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Nos Épices Authentiques</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Découvrez notre collection d'épices marocaines traditionnelles, soigneusement sélectionnées pour sublimer
+              vos plats faits maison. Les mêmes épices que nos cuisinières utilisent !
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left side - Spices showcase */}
+            <div className="space-y-8">
+              <div className="grid grid-cols-2 gap-6">
+                {[
+                  {
+                    name: "Moroccan Chicken Spices",
+                    description: "Des saveurs riches et chaudes pour transformer votre poulet rôti en un festin traditionnel.",
+                    image: "/1.jpg?height=150&width=150",
+                    color: "from-orange-400 to-red-500",
+                  },
+                  {
+                    name: "Moroccan Kefta Spices",
+                    description: "Un assaisonnement audacieux et parfumé, parfait pour vos boulettes ou grillades à la marocaine.",
+                    image: "/2.jpg?height=150&width=150",
+                    color: "from-yellow-400 to-orange-400",
+                  },
+                  {
+                    name: "Moroccan Shawarma Spices",
+                    description: "Une fusion d’épices orientales et marocaines pour un chawarma savoureux et irrésistible",
+                    image: "/3.jpg?height=150&width=150",
+                    color: "from-amber-400 to-orange-500",
+                  },
+                  {
+                    name: "Moroccan Harira Spices",
+                    description: "Un mélange d’épices équilibré pour enrichir la célèbre soupe marocaine avec chaleur et profondeur.",
+                    image: "/4.jpg?height=150&width=150",
+                    color: "from-red-400 to-orange-600",
+                  },
+                ].map((spice, index) => (
+                  <Card
+                    key={index}
+                    className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl group"
+                  >
+                    <CardContent className="p-0">
+                      <div className="relative h-45">
+                        <div className={`absolute inset-0 bg-gradient-to-br ${spice.color} opacity-20`} />
+                        <Image
+                          src={spice.image || "/placeholder.svg"}
+                          alt={spice.name}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                      <div className="p-4">
+                        <h3 className="font-semibold text-gray-900 mb-1">{spice.name}</h3>
+                        <p className="text-sm text-gray-600">{spice.description}</p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg border border-orange-100">
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="bg-orange-100 rounded-full p-3">
+                    <Leaf className="h-6 w-6 text-orange-600" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900">Qualité Garantie</h3>
+                    <p className="text-gray-600">100% naturelles, sans conservateurs</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span>Épices fraîchement moulues</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span>Origine contrôlée du Maroc</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span>Emballage hermétique</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Right side - Call to action */}
+            <div className="text-center lg:text-left">
+              <div className="bg-white rounded-3xl p-8 shadow-xl border border-orange-100">
+                <div className="mb-6">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-full mb-4">
+                    <ChefHat className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Boutique d'Épices Marocaines</h3>
+                  <p className="text-gray-600 mb-6">
+                    Visitez notre boutique en ligne spécialisée dans les épices authentiques du Maroc. Commandez les
+                    mêmes ingrédients que nos cuisinières utilisent pour préparer vos plats TyabSeha.
+                  </p>
+                </div>
+
+                <div className="space-y-4 mb-6">
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-green-100 rounded-full p-2">
+                      <Truck className="h-4 w-4 text-green-600" />
+                    </div>
+                    <span className="text-gray-700">Livraison gratuite dès 200 MAD</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-orange-100 rounded-full p-2">
+                      <Heart className="h-4 w-4 text-orange-600" />
+                    </div>
+                    <span className="text-gray-700">Sélection artisanale</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-blue-100 rounded-full p-2">
+                      <Shield className="h-4 w-4 text-blue-600" />
+                    </div>
+                    <span className="text-gray-700">Qualité certifiée</span>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <Button
+                    size="lg"
+                    className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white rounded-full py-3 text-lg shadow-lg transform hover:scale-105 transition-all duration-200"
+                    onClick={() => window.open("https://goo-back.github.io/assil/", "_blank")}
+                  >
+                    <Eye className="h-5 w-5 mr-2" />
+                    Découvrir Notre Boutique d'Épices
+                  </Button>
+
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="w-full border-orange-500 text-orange-600 hover:bg-orange-50 rounded-full py-3 bg-transparent"
+                    onClick={() =>
+                      window.open("https://wa.me/212609067313?text=Je veux des informations sur vos épices", "_blank")
+                    }
+                  >
+                    <MessageCircle className="h-5 w-5 mr-2" />
+                    Questions sur les Épices
+                  </Button>
+                </div>
+              </div>
+
+              {/* Special offer badge */}
+              <div className="mt-6 text-center">
+                <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-4 py-2 text-sm font-semibold">
+                  🎉 Offre Spéciale : -15% avec le code TYABASSIL
+                </Badge>
+              </div>
+            </div>
+          </div>
+
+</div>
+
       </section>
 {/* Témoignages clients */}
      <section className="py-20 bg-orange-50">
