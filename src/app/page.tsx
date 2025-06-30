@@ -181,7 +181,7 @@ const testimonials = [
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <ChefHat className="h-8 w-8 text-green-600" />
-              <span className="text-2xl font-bold text-gray-900">TyabAssil</span>
+              <span className="text-2xl font-bold text-gray-900">TyabLAssil</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-gray-700 hover:text-green-600 transition-colors">
@@ -240,7 +240,7 @@ const testimonials = [
       <section id="about" className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">À Propos de TyabAssil</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">À Propos de TyabLAssil</h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-gray-600 leading-relaxed">
                 TyabAssil est une initiative marocaine qui allie tradition culinaire et modernité pour rendre l’alimentation saine accessible, pratique et abordable.
@@ -472,7 +472,7 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
               {/* Special offer badge */}
               <div className="mt-6 text-center">
                 <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-4 py-2 text-sm font-semibold">
-                  🎉 Offre Spéciale : -15% avec le code TYABASSIL
+                  🎉 Offre Spéciale : -15% avec le code TYABLASSIL
                 </Badge>
               </div>
             </div>
@@ -526,7 +526,7 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Pourquoi Choisir TyabAssil ?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Pourquoi Choisir TyabLAssil ?</h2>
             <p className="text-lg text-gray-600"> </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -686,7 +686,7 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
                 <ChefHat className="h-8 w-8 text-green-400" />
-                <span className="text-2xl font-bold">TyabAssil</span>
+                <span className="text-2xl font-bold">TyabLAssil</span>
               </div>
               <p className="text-gray-400 mb-6">
                 Apportant des repas marocains sains et faits maison jusqu’à votre porte. Préparés avec amour par des cuisiniers locaux, livrés frais quotidiennement.
@@ -743,7 +743,7 @@ Notre mission est de proposer des repas marocains faits maison, équilibrés et 
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-            <p className="text-gray-400">© 2024 TyabAssil. Tous droits réservés. Fait avec ❤️ au Maroc.</p>
+            <p className="text-gray-400">© 2024 TyabLAssil. Tous droits réservés. Fait avec ❤️ au Maroc.</p>
           </div>
         </div>
       </footer>
