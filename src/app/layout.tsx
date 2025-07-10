@@ -24,6 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="description" content="Découvrez Tyab El Assil, une plateforme dédiée à la cuisine marocaine faite maison par des femmes talentueuses." />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="Tyab El Assil, cuisine marocaine, plats faits maison, femmes cuisinières, repas marocains" />
+        <link rel="canonical" href="https://ma-nine-sable.vercel.app" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
